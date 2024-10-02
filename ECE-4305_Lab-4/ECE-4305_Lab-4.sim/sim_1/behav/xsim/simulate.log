@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Address: 0, ROM Data: zZ
+Address: 10, ROM Data: zZ
+Address: 50, ROM Data: zZ
+Address: 100, ROM Data: zZ
+Address: 127, ROM Data: zZ
+$finish called at time : 70 ns : File "/home/ncking/Projects/Vivado/ECE-4305_Lab-4/ECE-4305_Lab-4.srcs/sim_1/new/test_top.sv" Line 82

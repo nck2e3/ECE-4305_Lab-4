@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../ECE-4305_Lab-4.srcs/sources_1/new/array_bcd_to_7segment.sv" \
+"../../../../ECE-4305_Lab-4.srcs/sources_1/new/bcd_to_7segment.sv" \
+"../../../../ECE-4305_Lab-4.srcs/sources_1/new/clock_slow.sv" \
+"../../../../ECE-4305_Lab-4.srcs/sources_1/new/display_controller.sv" \
+"../../../../ECE-4305_Lab-4.srcs/sources_1/new/magnitude_to_8_bcd.sv" \
+"../../../../ECE-4305_Lab-4.srcs/sources_1/new/mod_n_counter.sv" \
+"../../../../ECE-4305_Lab-4.srcs/sources_1/new/param_mux.sv" \
+"../../../../ECE-4305_Lab-4.srcs/sources_1/new/synch_rom.sv" \
+"../../../../ECE-4305_Lab-4.srcs/sources_1/new/top.sv" \
+"../../../../ECE-4305_Lab-4.srcs/sim_1/new/test_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
